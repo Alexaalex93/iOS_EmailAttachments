@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7B63B91E5133A2006EF472 /* sample.doc in Resources */ = {isa = PBXBuildFile; fileRef = 2B7B63B81E5133A2006EF472 /* sample.doc */; };
 		F49890D31DA4F5C40064F982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49890D21DA4F5C40064F982 /* AppDelegate.swift */; };
 		F49890D81DA4F5C40064F982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49890D61DA4F5C40064F982 /* Main.storyboard */; };
 		F49890DA1DA4F5C40064F982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49890D91DA4F5C40064F982 /* Assets.xcassets */; };
@@ -17,10 +18,10 @@
 		F49890EF1DA4F78A0064F982 /* foggy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F49890E91DA4F78A0064F982 /* foggy.jpg */; };
 		F49890F01DA4F78A0064F982 /* Hello World.ppt in Resources */ = {isa = PBXBuildFile; fileRef = F49890EA1DA4F78A0064F982 /* Hello World.ppt */; };
 		F49890F11DA4F78A0064F982 /* no more complaint.png in Resources */ = {isa = PBXBuildFile; fileRef = F49890EB1DA4F78A0064F982 /* no more complaint.png */; };
-		F49890F21DA4F78A0064F982 /* Why Appcoda.doc in Resources */ = {isa = PBXBuildFile; fileRef = F49890EC1DA4F78A0064F982 /* Why Appcoda.doc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B7B63B81E5133A2006EF472 /* sample.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.doc; sourceTree = "<group>"; };
 		F49890CF1DA4F5C40064F982 /* EmailAttachment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailAttachment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49890D21DA4F5C40064F982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F49890D71DA4F5C40064F982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		F49890E91DA4F78A0064F982 /* foggy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foggy.jpg; sourceTree = "<group>"; };
 		F49890EA1DA4F78A0064F982 /* Hello World.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hello World.ppt"; sourceTree = "<group>"; };
 		F49890EB1DA4F78A0064F982 /* no more complaint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no more complaint.png"; sourceTree = "<group>"; };
-		F49890EC1DA4F78A0064F982 /* Why Appcoda.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Why Appcoda.doc"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 				F49890E91DA4F78A0064F982 /* foggy.jpg */,
 				F49890EA1DA4F78A0064F982 /* Hello World.ppt */,
 				F49890EB1DA4F78A0064F982 /* no more complaint.png */,
-				F49890EC1DA4F78A0064F982 /* Why Appcoda.doc */,
+				2B7B63B81E5133A2006EF472 /* sample.doc */,
 			);
 			name = Attachments;
 			sourceTree = "<group>";
@@ -150,9 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F49890F01DA4F78A0064F982 /* Hello World.ppt in Resources */,
-				F49890F21DA4F78A0064F982 /* Why Appcoda.doc in Resources */,
 				F49890EF1DA4F78A0064F982 /* foggy.jpg in Resources */,
 				F49890DD1DA4F5C40064F982 /* LaunchScreen.storyboard in Resources */,
+				2B7B63B91E5133A2006EF472 /* sample.doc in Resources */,
 				F49890DA1DA4F5C40064F982 /* Assets.xcassets in Resources */,
 				F49890D81DA4F5C40064F982 /* Main.storyboard in Resources */,
 				F49890ED1DA4F78A0064F982 /* 10 Great iPhone Tips.pdf in Resources */,
@@ -294,7 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EmailAttachment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.EmailAttachment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cice.EmailAttachment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -306,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EmailAttachment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.EmailAttachment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cice.EmailAttachment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -331,6 +331,7 @@
 				F49890E31DA4F5C40064F982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

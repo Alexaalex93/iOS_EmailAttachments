@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  EmailAttachment
 //
-//  Created by Simon Ng on 5/10/2016.
-//  Copyright © 2016 AppCoda. All rights reserved.
+//  Created by Pablo Mateo Fernández on 27/01/2017.
+//  Copyright © 2017 355 Berry Street S.L. All rights reserved.
 //
 
 import UIKit
